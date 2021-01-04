@@ -5,7 +5,7 @@ import chai, { expect } from 'chai'
 import sinonChai from 'sinon-chai'
 import sinon from 'sinon'
 
-import isPostgres from 'utils/is-postgres'
+import isPostgres from './utils/is-postgres'
 import Resource, { ModelType } from './resource'
 import Property from './property'
 
