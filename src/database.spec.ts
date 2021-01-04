@@ -18,7 +18,7 @@ describe('Database', () => {
       firstName: Sequelize.STRING,
       lastName: Sequelize.STRING,
       email: Sequelize.STRING,
-      arrayed: Sequelize.ARRAY(Sequelize.STRING),
+      // arrayed: Sequelize.ARRAY(Sequelize.STRING),
     }, {})
   })
 

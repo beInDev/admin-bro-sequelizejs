@@ -62,6 +62,7 @@
   },
   "dependencies": {
     "escape-regexp": "0.0.1",
-    "flat": "^5.0.0"
+    "flat": "^5.0.0",
+    "mysql2": "^2.2.5"
   }
 }

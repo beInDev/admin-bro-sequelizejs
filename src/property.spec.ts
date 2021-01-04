@@ -22,10 +22,10 @@ describe('Property', () => {
       expect(property.isArray()).to.equal(false)
     })
 
-    it('returns true for array property', () => {
+    /* it('returns true for array property', () => {
       const property = new Property(getRawProperty('User', 'arrayed'))
       expect(property.isArray()).to.equal(true)
-    })
+    }) */
   })
 
   describe('#type', () => {
@@ -44,10 +44,10 @@ describe('Property', () => {
       expect(property.type()).to.equal('datetime')
     })
 
-    it('returns string when property is an array of strings', () => {
+    /* it('returns string when property is an array of strings', () => {
       const property = new Property(getRawProperty('User', 'arrayed'))
       expect(property.type()).to.equal('string')
-    })
+    }) */
   })
 
   describe('#availableValues', () => {
