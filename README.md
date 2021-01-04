@@ -17,7 +17,7 @@ More options can be found on [AdminBro](https://github.com/SoftwareBrothers/admi
 
 ## Testing
 
-Integration tests require running database. Database connection data are given in `config/config.js`. Make sure you have following env variables set: DATABASE_USER, DATABASE_PASSWORD, DATABASE_PORT, DATABASE_NAME, DATABASE_HOST. Take a look at `config/config.js` to see default values.
+Integration tests require running database. Database connection data are given in `config/config.js`. Make sure you have following env variables set: `DATABASE_USER`, `DATABASE_PASSWORD`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_HOST`, `DATABASE_DIALECT`. Take a look at `config/config.js` to see default values.
 
 Than you will have to create database and run migrations
 
